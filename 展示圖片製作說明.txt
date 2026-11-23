@@ -1,0 +1,16 @@
+網站示範截圖
+
+來源：使用者提供的 IMG_4921.PNG、IMG_4922.PNG、IMG_4924.PNG。
+編輯方式：內建圖片編輯工具。保留原始介面，僅調整展示值。原圖另存 assets/*-original.png。
+提示詞共通要求：Use case: text-localization. Edit the provided real iPhone screenshot into a pixel-faithful marketing sample with longer sample ride values. Preserve original aspect ratio, full uncropped canvas, Traditional Chinese typography, SF font weights, layout, spacing, colors, icons, native glass effects and background. Change only specified values. No new design, border, hardware or watermark. Values are illustrative sample data; website labels them accordingly.
+
+紀錄圖提示：First record: 30 分鐘 / 12.00 km / 150 kcal; 平均 80 · 最高 96 RPM · 估算有效時間 92%. Second record: 20 分鐘 / 7.50 km / 100 kcal; 平均 75 · 最高 89 RPM · 估算有效時間 90%. Preserve dates, title and all other labels.
+
+直式圖提示：Change ride time 00:00:13 to 00:18:32, virtual distance 0.02 to 7.72, calories 1 to 93, average 37 to 83. Keep large RPM 69, speed 20.8 and all other elements.
+
+橫式圖提示：Change ride time 00:00:57 to 00:18:32, distance 0.23 to 7.72, calories 4 to 93. Change top weak-signal text to 實驗估算 · 每 2 秒平滑更新. Preserve large RPM 97, speed 29.0, average 91, chart and all other elements.
+
+本次僅修改網站圖片，不修改 App 或實際紀錄。
+
+新增俯視情境：內建生圖工具產生，使用者介面透過 HTML/CSS 嵌入原 App 截圖。
+Prompt: Use case: ads-marketing. Asset type: wide website section background for AirPods RPM indoor cycling dashboard, 3:2 landscape composition. Create a premium photorealistic sports editorial image, strict vertical overhead bird's-eye camera looking straight down at one adult riding a stationary spin bike in a dark studio. Viewer is above the rider's head looking down. Rider's crown visible in lower center, white wireless earbuds visibly in BOTH ears, hands gripping left and right handlebar, muscular legs bent at different pedal phases visibly pedaling below the hands, indoor bike frame. A single portrait iPhone is lying flat, screen facing directly straight up toward camera, securely in a mount in the exact middle of the handlebar at image center x50%, y35%. Phone outer bounding box approximately x41%-59%, y8%-62%, flat rectangular front with gently rounded corners, NO perspective tilt. Phone screen is plain solid near-black #07101b with only a faint teal glow, NO text, numbers, icons or UI; real screenshot will be composited by the website. Keep screen completely unobstructed by hands or head. Rider head center at x50% y78%, hands at x28% y45% and x72% y45%. Leave leftmost and rightmost 20% of image calm dark negative space for HTML data callouts. Navy-black palette #07101b, subtle teal #50e4df rim light, black athletic clothing, realistic anatomy and bicycle mechanics. Full bleed background fades to navy-black edges, no visible panel border. No captions, branding, logos, arrows, labels, watermarks, or extra devices. Ensure head, both earbuds, two hands, handlebar, phone and pedaling legs read clearly in this single top view.

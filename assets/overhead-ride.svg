@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" role="img" aria-label="戴著耳機的騎乘者俯視插畫">
+<defs><linearGradient id="kit" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#294456"/><stop offset="1" stop-color="#0c1b2b"/></linearGradient><linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dfad86"/><stop offset="1" stop-color="#b77c58"/></linearGradient><linearGradient id="metal"><stop stop-color="#314954"/><stop offset="1" stop-color="#101e28"/></linearGradient><radialGradient id="glow"><stop stop-color="#19444d" stop-opacity=".6"/><stop offset="1" stop-color="#07101b" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="768" cy="500" rx="580" ry="520" fill="url(#glow)"/>
+<g fill="none" stroke="#50e4df" opacity=".08"><ellipse cx="768" cy="520" rx="410" ry="410"/><ellipse cx="768" cy="520" rx="335" ry="335"/><path d="M255 830h1025M300 880h935M360 930h815"/></g>
+<!-- Bicycle and pedals beneath the rider. -->
+<path d="M768 10v900" stroke="#0a1520" stroke-width="90"/><path d="M768 20v830" stroke="url(#metal)" stroke-width="38"/>
+<path d="M768 450v300" stroke="#50e4df" stroke-width="5" opacity=".7"/>
+<path d="M610 590h310" stroke="#526873" stroke-width="15" stroke-linecap="round"/><path d="M590 590h55m245 0h55" stroke="#111e29" stroke-width="28" stroke-linecap="round"/>
+<!-- Bent legs in opposite phases, matching the hero's simple limb shapes. -->
+<path d="M672 870Q580 780 598 670L629 566" fill="none" stroke="url(#skin)" stroke-width="94" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M860 878Q982 680 920 520L887 465" fill="none" stroke="url(#skin)" stroke-width="94" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M665 858 625 777m242 77 42-88" stroke="#193749" stroke-width="108" stroke-linecap="round"/>
+
+<g fill="#e9efdd"><ellipse cx="629" cy="561" rx="29" ry="40" transform="rotate(10 629 561)"/><ellipse cx="887" cy="462" rx="29" ry="40" transform="rotate(-15 887 462)"/></g>
+<!-- Flat handlebar. -->
+<path d="M461 372Q505 160 570 55M461 372Q615 337 768 370Q921 337 1075 372Q1031 160 966 55" fill="none" stroke="#0b1822" stroke-width="53" stroke-linecap="round"/>
+<path d="M461 370Q505 160 570 55M1075 370Q1031 160 966 55" fill="none" stroke="#36515c" stroke-width="5" stroke-linecap="round"/>
+<path d="M461 375Q615 340 768 370Q921 340 1075 375" fill="none" stroke="#2a424e" stroke-width="9"/>
+<!-- Arms, with a single clean elbow turn as in the hero. -->
+<path d="M567 870 392 662 453 381M970 870 1145 662 1082 381" fill="none" stroke="url(#skin)" stroke-width="75" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="m567 870-62-76m465 76 62-76" stroke="#1d3b50" stroke-width="96" stroke-linecap="round"/>
+<g fill="url(#skin)"><circle cx="458" cy="375" r="39"/><circle cx="1078" cy="375" r="39"/></g>
+<!-- Cycling jersey, shoulder silhouette and teal kit stripe. -->
+<path d="M590 763Q660 735 768 752Q876 735 946 763L1003 850 938 960Q859 1018 768 1018Q677 1018 598 960L533 850Z" fill="url(#kit)"/>
+<path d="M572 818Q610 789 645 788M891 788q35 1 73 30" fill="none" stroke="#50e4df" stroke-width="9" stroke-linecap="round"/>
+<path d="M620 925q148 40 296 0" stroke="#466271" stroke-width="2" fill="none" opacity=".5"/>
+<!-- Head and ears: deliberately flat, not photographic. -->
+<path d="M738 926v39h60v-39" fill="#b77c58"/>
+<ellipse cx="768" cy="824" rx="133" ry="150" fill="url(#skin)"/>
+<ellipse cx="637" cy="836" rx="20" ry="36" fill="#c18e6a"/><ellipse cx="899" cy="836" rx="20" ry="36" fill="#c18e6a"/>
+<path d="M638 817Q620 727 678 690Q752 639 825 684Q921 719 898 830L879 875Q826 946 768 953Q704 944 652 875Z" fill="#172019"/>
+<path d="M668 739Q705 696 767 695M792 703q49 8 75 45" stroke="#29332c" stroke-width="8" fill="none" stroke-linecap="round"/>
+<g stroke="#fcfff5" fill="#fcfff5" stroke-linecap="round"><circle cx="634" cy="831" r="11"/><path d="m634 837 3 30" stroke-width="12"/><circle cx="902" cy="831" r="11"/><path d="m902 837-3 30" stroke-width="12"/></g>
+<g fill="none" stroke="#50e4df" stroke-width="2" opacity=".55"><path d="M609 805q-15 26 0 53m-12-65q-23 38 0 77M927 805q15 26 0 53m12-65q23 38 0 77"/></g>
+<!-- Phone frame, left blank for the real HTML screenshot. -->
+<path d="M668 226v166m200-166v166" stroke="#355662" stroke-width="17" stroke-linecap="round"/><rect x="682" y="74" width="172" height="350" rx="29" fill="#070e16" stroke="#58737f" stroke-width="4"/><rect x="691" y="83" width="154" height="332" rx="22" fill="#07101b"/>
+</svg>

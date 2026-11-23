@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1100">
+<defs><linearGradient id="skin"><stop stop-color="#dfad86"/><stop offset="1" stop-color="#b77c58"/></linearGradient><linearGradient id="kit" x2="1" y2="1"><stop stop-color="#294456"/><stop offset="1" stop-color="#0c1b2b"/></linearGradient><radialGradient id="glow"><stop stop-color="#19444d" stop-opacity=".7"/><stop offset="1" stop-color="#07101b" stop-opacity="0"/></radialGradient></defs>
+<ellipse cx="300" cy="600" rx="290" ry="490" fill="url(#glow)"/>
+<g fill="none" stroke="#50e4df" opacity=".1"><ellipse cx="300" cy="590" rx="285" ry="350"/><ellipse cx="300" cy="590" rx="240" ry="300"/></g>
+<!-- The handlebar surrounds the enlarged mounted phone. -->
+<path d="M80 690 50 410 90 120M520 690 550 410 510 120M80 690Q300 725 520 690" fill="none" stroke="#101f2a" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m80 690-30-280 40-290m430 570 30-280-40-290" fill="none" stroke="#36515c" stroke-width="3" stroke-linecap="round"/>
+<path d="M300 660v370m-90-220h180" stroke="#2b434e" stroke-width="24"/><path d="M300 715v150" stroke="#50e4df" stroke-width="3" opacity=".7"/>
+<!-- Opposite pedal phases, simplified shoes and limbs. -->
+<path d="M238 1015Q153 925 155 834L185 774M362 1015Q469 885 442 779L420 737" fill="none" stroke="url(#skin)" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m238 1015-40-66m164 66 43-63" stroke="#193749" stroke-width="72" stroke-linecap="round"/>
+<g fill="#e9efdd"><ellipse cx="185" cy="773" rx="23" ry="32" transform="rotate(15 185 773)"/><ellipse cx="420" cy="735" rx="23" ry="32" transform="rotate(-15 420 735)"/></g>
+<!-- Clean circular hands hold the bar, with arms continuing to the torso. -->
+<path d="M190 1000 71 826 79 695M410 1000 529 826 521 695" fill="none" stroke="url(#skin)" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="url(#skin)"><circle cx="79" cy="689" r="28"/><circle cx="521" cy="689" r="28"/></g>
+<path d="M195 951Q300 911 405 951L453 1015Q300 1115 147 1015Z" fill="url(#kit)"/>
+<path d="m168 1007 38-32m188 0 38 32" stroke="#50e4df" stroke-width="6" stroke-linecap="round"/>
+<!-- The rider's head and earbuds remain visible under the screen. -->
+<ellipse cx="300" cy="951" rx="92" ry="104" fill="url(#skin)"/><ellipse cx="210" cy="951" rx="14" ry="25" fill="#c18e6a"/><ellipse cx="390" cy="951" rx="14" ry="25" fill="#c18e6a"/>
+<path d="M211 944Q195 867 251 847Q300 825 351 847Q406 869 389 949L378 985Q300 1069 222 985Z" fill="#172019"/>
+<path d="M235 888q30-34 66-33m17 4q30 4 49 27" stroke="#29332c" stroke-width="6" fill="none" stroke-linecap="round"/>
+<g stroke="#fcfff5" fill="#fcfff5" stroke-linecap="round"><circle cx="207" cy="947" r="8"/><path d="m207 954 3 22" stroke-width="9"/><circle cx="393" cy="947" r="8"/><path d="m393 954-3 22" stroke-width="9"/></g>
+<g stroke="#50e4df" fill="none" opacity=".5"><path d="M187 931q-12 18 0 39m-10-46q-18 25 0 52M413 931q12 18 0 39m10-46q18 25 0 52"/></g>
+<!-- Large phone stays physically attached to the handlebar. -->
+<path d="M137 440v168m326-168v168" stroke="#365b68" stroke-width="12" stroke-linecap="round"/>
+<rect x="144" y="54" width="312" height="658" rx="41" fill="#070e16" stroke="#58737f" stroke-width="5"/><rect x="152" y="64" width="296" height="643" rx="34" fill="#07101b"/>
+</svg>
