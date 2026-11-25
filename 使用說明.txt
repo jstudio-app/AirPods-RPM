@@ -38,3 +38,11 @@ config.js 的 appStore 欄位填入正式 App Store HTTPS 連結。
 手機版數據介紹已重新設計為獨立的上視騎乘插畫（assets/overhead-mobile.svg），保留耳機、人物、雙手握把及踩踏雙腳，並將支架上的手機放大。五項數據使用透明文字與細線連接，移除貼紙底色，下方五項說明卡片保留。已確認 320px／390px 螢幕沒有水平溢出。
 
 Hero 已依使用者提供的桌機／手機參考圖調整：三行標題、亮青綠重點色、放大人物與 RIDE 背景字、模式說明置於切換列上方、文字模式搭配底線指示，移除原本卡片按鈕樣式；持續循環播放。已確認 320px、470px、1440px 沒有水平溢出。
+
+2026/11/25 多語系改版
+支援繁體中文、English、日本語、한국어、Français、Deutsch、Español。
+首次依瀏覽器語言顯示；其他語言以英文顯示。右上角地球可選語言或跟隨系統。
+首頁文字、互動動畫的標籤、使用條款、隱私政策與 FAQ 已本地化；既有實際 App 截圖仍為原本繁體中文圖片。
+既有 HTML 路徑與章節錨點不變，可直接替換原網站。新增 i18n.js、i18n.css、translations.js、legal-translations.js；發布時請一起上傳。
+可透過 ?lang=zh-Hant、?lang=en、?lang=ja、?lang=ko、?lang=fr、?lang=de、?lang=es 指定語言，例如 privacy.html?lang=de#s2。
+Google Forms 表單由外部服務提供，網站不會修改表單本身的語言。

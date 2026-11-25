@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  const localized = window.rpmText || (value => value);
   const config = window.AIRPODS_RPM_CONFIG || {};
   const menu = document.querySelector('.menu-toggle');
   if (menu) {
@@ -30,7 +31,7 @@
       if (!orientationVisible || document.hidden || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
       const next = orientationDemo.dataset.orientation === 'portrait' ? 'landscape' : 'portrait';
       orientationDemo.dataset.orientation = next;
-      orientationDemo.querySelector('[data-orientation-label]').textContent = next === 'portrait' ? '直式儀表板' : '橫式儀表板';
+      orientationDemo.querySelector('[data-orientation-label]').textContent = localized(next === 'portrait' ? '直式儀表板' : '橫式儀表板');
     }, 4500);
   }
   const form = document.getElementById('feedback-form');
@@ -70,7 +71,7 @@
     mode = next; scene.dataset.mode = next; segment = 0;
     if (manual) { auto = !reduceMotion.matches; finished = false; }
     buttons.forEach(b => { b.setAttribute('aria-pressed', String(b.dataset.mode === next)); b.classList.toggle('is-complete', modes.indexOf(b.dataset.mode) < modes.indexOf(next)); });
-    description.textContent = labels[next];
+    description.textContent = localized(labels[next]);
     document.querySelector('[data-seat-label]').classList.toggle('selected', next !== 'standing');
     document.querySelector('[data-stand-label]').classList.toggle('selected', next === 'standing');
     if (reduceMotion.matches || !running) standBlend = next === 'standing' ? 1 : 0;
